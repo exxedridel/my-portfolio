@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Heved's portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Templates were made from scratch by Heved Ríos.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Templates and UI were made from scratch by Heved Ríos.
 
 ## Available Scripts
 
