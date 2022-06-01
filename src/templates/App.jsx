@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import heved from "../assets/images/heved.png";
 import whatsapp from "../assets/images/whatsapp.png";
 import gmail from "../assets/images/gmail.png";
@@ -39,9 +41,9 @@ function App() {
             <p>Profile</p>
           </div>
           <div className="portfolio">
-            <a href="/portfolio">
+            <Link to="portfolio">
               <img src={github} alt="github"/>
-            </a>
+            </Link>
             <p>Portfolio</p>
           </div>
         </div>
