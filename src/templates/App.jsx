@@ -39,7 +39,7 @@ function App() {
             <p>Profile</p>
           </div>
           <div className="portfolio">
-            <a href="portfolio">
+            <a href="/portfolio">
               <img src={github} alt="github"/>
             </a>
             <p>Portfolio</p>

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./templates/App";
 import Portfolio from "./templates/Portfolio";
 import reportWebVitals from "./reportWebVitals";
@@ -8,12 +8,14 @@ import "./styles/index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HashRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="portfolio" element={<Portfolio />} />
-    </Routes>
-  </HashRouter>
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
