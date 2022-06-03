@@ -1,5 +1,5 @@
 import React from "react";
-import Capture1 from "../assets/images/Capture1.JPG";
+import Capture1a from "../assets/images/Capture1a.JPG";
 import Capture2 from "../assets/images/Capture2.JPG";
 import Capture3 from "../assets/images/Capture3.JPG";
 import "../styles/Portfolio.css";
@@ -12,16 +12,18 @@ const Portfolio = () => {
       </header>
       <section className="container">
         <article className="post">
-          <h2>NFT Store - Bajo la Música</h2>
+          <h2>NFTs Store - Bajo la Música</h2>
           <a href="https://silver-buttercream-9d33ca.netlify.app">
             <p>https://silver-buttercream-9d33ca.netlify.app</p>
-            <img src={Capture1} alt="capture1" />
+            <img src={Capture1a} alt="capture1a" />
           </a>
           <p>
-            This will be a web app to buy NFTs which is been created using
-            React.js, Webpack and Babel. User interface was made following a
-            figma wireframe and is atomic responsive design. The products shown
-            are randomly taken from an example API.
+            This will be the official Bajo la Musica™ App in which local artists
+            can get their music to know, sell NFT art, and merch. Web app is
+            been created using React.js, Webpack and Babel to escalate it into
+            Next.js. User interface was made following a figma wireframe and is
+            atomic and responsive design. The products already shown are
+            randomly taken from an example API.
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/BajoLaMusicaPJ">
@@ -37,10 +39,12 @@ const Portfolio = () => {
             <img src={Capture2} alt="capture2" />
           </a>
           <p>
-            This is a fully funtional web application for employee management
-            created using Flask framework and SQLite as Data Base. User
-            Interface was created from Bootstrap with responsive design. Login
-            is required to navigate: User Heved123 | Pass 123456 .
+            This is the Manufacturea San Roque™ web app, which is an employee
+            management system plus rewards store. This one was developed in
+            Python's Flask framework and SQLite as database. User Interface was
+            created using Bootstrap with responsive design. Since users are
+            provided by company, you can use this one to navigate:
+            user="Heved123", password="123456".
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/SanRoquePJ">
@@ -56,9 +60,9 @@ const Portfolio = () => {
             <img src={Capture3} alt="capture3" />
           </a>
           <p>
-            This site has been built with React.js. Initialized with npx
-            create-react-app. Templates were made from scratch with HTML-CSS and
-            responsive design UI.
+            This site has been built with React.js. Has been initialized with
+            npx create-react-app. Templates were made from scratch with
+            JS-HTML-CSS and UI is responsive design.
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/my-portfolio">

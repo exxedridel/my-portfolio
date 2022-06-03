@@ -35,7 +35,7 @@ function App() {
             <p>E-mail</p>
           </div>
           <div className="profile">
-            <a href="https://www.linkedin.com/in/heved-oscar-rios-delgado-20a48a1ba/">
+            <a href="https://www.linkedin.com/in/heved-rios">
               <img src={linkedin} alt="linkedin"/>
             </a>
             <p>Profile</p>
