@@ -42,8 +42,8 @@ const Portfolio = () => {
             This is the Manufacturea San Roque™ web app, which is an employee
             management system plus rewards store. This one was developed in
             Python's Flask framework and SQLite as database. User Interface was
-            created using Bootstrap with responsive design. Since users are
-            provided by company, you can use this one to navigate:
+            created using Bootstrap with responsive design. Since credentials
+            are provided by company, you can use this one to navigate:
             user="Heved123", password="123456".
           </p>
           <div className="github-buttons">
