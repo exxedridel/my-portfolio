@@ -12,7 +12,7 @@ const Portfolio = () => {
       </header>
       <section className="container">
         <article className="post">
-          <h2>NFTs Store - Bajo la Música</h2>
+          <h2>Magazine & Store - Bajo la Música App</h2>
           <a href="https://silver-buttercream-9d33ca.netlify.app">
             <p>https://silver-buttercream-9d33ca.netlify.app</p>
             <img src={Capture1a} alt="capture1a" />
@@ -20,10 +20,10 @@ const Portfolio = () => {
           <p>
             This will be the official Bajo la Musica™ App in which local artists
             can get their music to know, sell NFT art, and merch. Web app is
-            been created using React.js, Webpack and Babel to escalate it into
-            Next.js. User interface was made following a figma wireframe and is
-            atomic and responsive design. The products already shown are
-            randomly taken from an example API.
+            been created using React.js, Webpack and Babel to escalate it into a
+            Next.js PWA. User interface was made following a figma wireframe and
+            is atomic and responsive designed. The products already shown are
+            consumed from an example API.
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/BajoLaMusicaPJ">
@@ -33,7 +33,7 @@ const Portfolio = () => {
         </article>
 
         <article className="post">
-          <h2>Management App - San Roque</h2>
+          <h2>Employee Management Web App - San Roque</h2>
           <a href="http://hevedrios.pythonanywhere.com">
             <p>http://hevedrios.pythonanywhere.com</p>
             <img src={Capture2} alt="capture2" />
