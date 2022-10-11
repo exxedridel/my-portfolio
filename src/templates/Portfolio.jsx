@@ -1,5 +1,4 @@
 import React from "react";
-import Capture1a from "../assets/images/Capture1a.JPG";
 import Capture2 from "../assets/images/Capture2.JPG";
 import Capture3 from "../assets/images/Capture3.JPG";
 import "../styles/Portfolio.css";
