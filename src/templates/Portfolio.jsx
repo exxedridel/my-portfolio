@@ -57,8 +57,8 @@ const Portfolio = () => {
 
         <article className="post">
           <h2>Portfolio - Heved Ríos</h2>
-          <a href="https://spectacular-daffodil-996245.netlify.app">
-            <p>https://spectacular-daffodil-996245.netlify.app</p>
+          <a href="https://hevedrios.netlify.app">
+            <p>https://hevedrios.netlify.app</p>
             <img src={Capture3} alt="capture3" />
           </a>
           <p>
