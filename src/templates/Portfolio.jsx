@@ -12,18 +12,20 @@ const Portfolio = () => {
       </header>
       <section className="container">
         <article className="post">
-          <h2>Magazine & Store - Bajo la Música App</h2>
-          <a href="https://silver-buttercream-9d33ca.netlify.app">
-            <p>https://silver-buttercream-9d33ca.netlify.app</p>
-            <img src={Capture1a} alt="capture1a" />
+          <h2>Web App - Bajo la Música™ Magazine</h2>
+          <a href="https://bajolamusica.netlify.app">
+            <p>https://bajolamusica.netlify.app</p>
+            <img
+              src="https://images2.imgbox.com/8c/e8/zmeQdMJ0_o.jpg"
+              alt="capture1a"
+            />
           </a>
           <p>
-            This will be the official Bajo la Musica™ App in which local artists
-            can get their music to know, sell NFT art, and merch. Web app is
-            been created using React.js, Webpack and Babel to escalate it into a
-            Next.js PWA. User interface was made following a figma wireframe and
-            is atomic and responsive designed. The products already shown are
-            consumed from an example API.
+            This will be the official Bajo la Musica™ web app in which local
+            artists can get their music to know. Website is been created using
+            React framework and will escalate into a Next.js PWA. Navbar was
+            created following a Figma wireframe but all other UI/UX by myself.
+            This project is on a test phase to be released soon.
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/BajoLaMusicaPJ">
@@ -33,18 +35,18 @@ const Portfolio = () => {
         </article>
 
         <article className="post">
-          <h2>Employee Management Web App - San Roque</h2>
+          <h2>Web App - San Roque™ Employee Manager</h2>
           <a href="http://hevedrios.pythonanywhere.com">
             <p>http://hevedrios.pythonanywhere.com</p>
             <img src={Capture2} alt="capture2" />
           </a>
           <p>
-            This is the Manufacturea San Roque™ web app, which is an employee
-            management system plus rewards store. This one was developed in
-            Python's Flask framework and SQLite as database. User Interface was
-            created using Bootstrap with responsive design. Since credentials
-            are provided by company, you can use this one to navigate:
-            user="Heved123", password="123456".
+            This is the web app I delivered to Manufacturera San Roque™ as
+            result of my professional practices, which is an employee management
+            system plus rewards store. This one was developed in Python's Flask
+            framework and SQLite as database. User Interface was created using
+            Bootstrap. You can use this credentials to full navigate - user:
+            Heved123, password: 123456.
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/SanRoquePJ">
@@ -60,9 +62,8 @@ const Portfolio = () => {
             <img src={Capture3} alt="capture3" />
           </a>
           <p>
-            This site has been built with React.js. Has been initialized with
-            npx create-react-app. Templates were made from scratch with
-            JS-HTML-CSS and UI is responsive design.
+            This site has been built with npx create-react-app. Templates were
+            made from scratch with JS-HTML-CSS and UI is responsive design.
           </p>
           <div className="github-buttons">
             <a href="https://github.com/exxedridel/my-portfolio">
