@@ -16,7 +16,7 @@ function App() {
             <img src={heved} alt="heved" />
           </div>
           <p className="card_value">Heved Ríos</p>
-          <p className="card_title">Frontend developer</p>
+          <p className="card_title">Frontend developer | React</p>
         </div>
         <div className="card_userdata">
           <p>Universidad Tecnológica Latinoamericana</p>
@@ -24,27 +24,27 @@ function App() {
         <div className="card_social">
           <div className="phone">
             <a href="https://wa.me/524777861996">
-              <img src={whatsapp} alt="whatsapp"/>
+              <img src={whatsapp} alt="whatsapp" />
+              <p>Phone</p>
             </a>
-            <p>Phone</p>
           </div>
           <div className="e-mail">
             <a href="mailto:hevedrios@gmail.com">
-              <img src={gmail} alt="gmail"/>
+              <img src={gmail} alt="gmail" />
+              <p>E-mail</p>
             </a>
-            <p>E-mail</p>
           </div>
           <div className="profile">
             <a href="https://www.linkedin.com/in/heved-rios">
-              <img src={linkedin} alt="linkedin"/>
+              <img src={linkedin} alt="linkedin" />
+              <p>Profile</p>
             </a>
-            <p>Profile</p>
           </div>
           <div className="portfolio">
             <Link to="portfolio">
-              <img src={github} alt="github"/>
+              <img src={github} alt="github" />
+              <p>Portfolio</p>
             </Link>
-            <p>Portfolio</p>
           </div>
         </div>
       </div>

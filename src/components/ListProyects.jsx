@@ -1,15 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const ListProyects = (props) => {
   return (
     <article className="post">
       <h2>{props.element.title}</h2>
       <a href={props.element.linkUrl}>
-        <p>{props.element.linkName}</p>
-        <img
-          src={props.element.image}
-          alt={`Proyect ${props.element.id}`}
-        />
+        <p className="go-to">Go to project</p>
+        <img src={props.element.image} alt={`Proyect ${props.element.id}`} />
       </a>
       <p>{props.element.description}</p>
       <div className="github-buttons">
@@ -18,7 +15,7 @@ const ListProyects = (props) => {
         </a>
       </div>
     </article>
-  )
-}
+  );
+};
 
-export default ListProyects
+export default ListProyects;

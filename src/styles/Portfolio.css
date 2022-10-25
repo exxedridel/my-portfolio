@@ -15,7 +15,7 @@ header a {
 }
 
 .container {
-  width: 550px;
+  max-width: 550px;
   margin: 0 auto;
 }
 
@@ -36,12 +36,16 @@ section article p {
   margin: 1rem;
 }
 
+.go-to {
+  text-align: center;
+}
+
 article img {
-  width: 550px;
+  width: 100%;
 }
 
 article p {
-  text-align: justify;
+  letter-spacing: 0.7px;
   font-size: 1rem;
 }
 
@@ -72,12 +76,5 @@ article p {
   text-decoration: none;
 }
 
-@media (max-width: 415px) {
-  .container {
-    width: 360px;
-    margin: 1px auto;
-  }
-  article img {
-    width: 360px;
-  }
+@media (max-width: 583px) {
 }

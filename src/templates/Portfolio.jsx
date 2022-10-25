@@ -12,9 +12,9 @@ const Portfolio = () => {
   return (
     <>
       <header id="titulo">
-        <Link to="/">
-          <h1>Portfolio</h1>
-        </Link>
+        <h1>
+          <Link to="/">Portfolio</Link>
+        </h1>
       </header>
       <section className="container">{proyectsList}</section>
     </>
