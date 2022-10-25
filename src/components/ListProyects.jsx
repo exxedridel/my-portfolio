@@ -1,4 +1,6 @@
-export default function ListProyects(props) {
+import React from 'react'
+
+const ListProyects = (props) => {
   return (
     <article className="post">
       <h2>{props.element.title}</h2>
@@ -16,5 +18,7 @@ export default function ListProyects(props) {
         </a>
       </div>
     </article>
-  );
+  )
 }
+
+export default ListProyects
